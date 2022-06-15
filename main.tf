@@ -2,7 +2,7 @@ resource "null_resource" "resource" {
   provisioner "local-exec" {
     command = "echo $ENV"
     environment = {
-      ENV = "Hello awesome world!"
+      ENV = "Hello awesome world, I'm here!"
     }
   }
   triggers = {
