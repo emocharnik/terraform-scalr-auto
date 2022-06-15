@@ -1,4 +1,4 @@
-resource "null_resource" "resource1" {
+resource "null_resource" "resource" {
   provisioner "local-exec" {
     command = "echo $ENV"
     environment = {
